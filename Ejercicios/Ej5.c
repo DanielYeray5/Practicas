@@ -19,8 +19,7 @@ int main() {
     segundos %= 60;
 
     // Imprimir el número de días, horas, minutos, y segundos
-    printf("%d segundos es igual a %d días, %d horas, %d minutos, y %d segundos\n",
-        segundos, días, horas, minutos, segundos);
+    printf("Los segundos ingresados son igual a %d días, %d horas, %d minutos, y %d segundos\n", días, horas, minutos, segundos);
 
     return 0;
 }
