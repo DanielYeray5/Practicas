@@ -3,18 +3,18 @@
 int main() {
     int segundos, días, horas, minutos;
 
-    printf("Ingrese el número de segundos: ");
+    puts("Ingrese el número de segundos: ");
     scanf("%d", &segundos);
 
-    // Calcular el número de días
+    // Número de días
     días = segundos / 86400;
     segundos %= 86400;
 
-    // Calcular el número de horas
+    // Número de horas
     horas = segundos / 3600;
     segundos %= 3600;
 
-    // Calcular el número de minutos
+    // Número de minutos
     minutos = segundos / 60;
     segundos %= 60;
 
