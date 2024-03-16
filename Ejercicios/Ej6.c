@@ -1,4 +1,3 @@
-/* Programa: Color de un semáforo (Solución 1) */
 #include <stdio.h>
 
 int main(){
@@ -26,8 +25,6 @@ int main(){
     default:
         printf("\n   ERROR: %d, no esta asociado a ning%cn color.", numero, 163);
     }
-
-    getch(); /* Pausa */
 
     return 0;
 }
