@@ -3,14 +3,12 @@
 int main(){
     int numero;
 
-    printf("\n   Listado de colores de un sem%cforo:", 160);
+    printf("\n   Listado de colores de un semaforo:", 160);
     printf("\n\n   1. Rojo");
     printf("\n   2. Verde");
     printf("\n   3. Amarillo");
-    printf("\n\n   Introduzca n%cmero de color: ", 163);
-
+    printf("\n\n   Introduzca un color: ", 163);
     scanf("%d", &numero);
-
     switch (numero)
     {
     case 1:
