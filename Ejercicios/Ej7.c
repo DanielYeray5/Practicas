@@ -4,9 +4,9 @@ int main()
 {
     int n1, n2;
 
-    printf( "\nIntroduzca el primer numero (entero): ", 163 );
+    printf( "\nIntroduzca el primer numero (entero): " );
     scanf( "%d", &n1 );
-    printf( "\nIntroduzca el segundo numero (entero): ", 163 );
+    printf( "\nIntroduzca el segundo numero (entero): " );
     scanf( "%d", &n2 );
 
     if ( n1 > n2 )
