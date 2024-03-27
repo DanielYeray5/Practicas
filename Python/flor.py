@@ -9,7 +9,7 @@ def dibujar_tulipan():
     tulipan.speed(0)  # Establecer la velocidad más rápida
     
     # Dibujar el tallo del tulipán
-    tulipan.color("blue")
+    tulipan.color("green")
     tulipan.penup()
     tulipan.goto(0, -200)
     tulipan.pendown()
