@@ -6,9 +6,9 @@ def dibujar_tulipan():
     screen.bgcolor("black")
     
     tulipan = turtle.Turtle()
-    tulipan.speed(0)  # Establecer la velocidad más rápida
+    tulipan.speed(0) 
     
-    # Dibujar el tallo del tulipán
+    # Info tallo
     tulipan.color("green")
     tulipan.penup()
     tulipan.goto(0, -200)
@@ -16,7 +16,7 @@ def dibujar_tulipan():
     tulipan.left(90)
     tulipan.forward(200)
     
-    # Dibujar los pétalos del tulipán
+    # Info pétalos
     tulipan.color("yellow")
     tulipan.penup()
     tulipan.goto(0, 0)
@@ -30,9 +30,7 @@ def dibujar_tulipan():
         tulipan.end_fill()
         tulipan.left(10)
     
-    # Ocultar la tortuga y mostrar el resultado
     tulipan.hideturtle()
     turtle.done()
 
-# Llamar a la función para dibujar el tulipán
 dibujar_tulipan()
